@@ -31,4 +31,17 @@ def jogar():
                 erros += 1 
                 
                 enforcou = erros == 6
-                acertou = "_"
+                acertou = "_" not in letras_acertadas
+                print(letras_acertadas)
+                
+                if (acertou):
+                    print("Você ganhou!!")
+                else:
+                    print("Você perdeu!!")
+                print("FIM DO JOGO")
+                
+                
+                if (__name__ == "__main__"):
+                    jogar()
+                
+                
